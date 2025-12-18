@@ -1,0 +1,6 @@
+a=int(input("enter the 1st interger: " ))
+b=int(input("enter the 2nd interger: " ))
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)

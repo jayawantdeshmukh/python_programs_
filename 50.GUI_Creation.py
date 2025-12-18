@@ -1,0 +1,12 @@
+import tkinter as tk
+master = tk.Tk()
+tk.Label(master,text='First Name: ').grid(row=1)
+tk.Label(master,text='Father Name: ' ).grid(row=2)
+tk.Label(master,text='Mother Name: ').grid(row=3)
+e1=tk.Entry(master)
+e2=tk.Entry(master)
+e3=tk.Entry(master)
+e1.grid(row=1,column=1)
+e2.grid(row=2,column=1)
+e3.grid(row=3,column=1)
+tk.mainloop()
